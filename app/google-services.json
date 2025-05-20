@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "537290459533",
+    "firebase_url": "https://moisure-b77f1-default-rtdb.firebaseio.com",
+    "project_id": "moisure-b77f1",
+    "storage_bucket": "moisure-b77f1.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:537290459533:android:2e62522aa6e27c45fa95c4",
+        "android_client_info": {
+          "package_name": "com.example.irrigationapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6LuqvVSQzRZxdzstqD2gTrCfDBLJ2j4c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

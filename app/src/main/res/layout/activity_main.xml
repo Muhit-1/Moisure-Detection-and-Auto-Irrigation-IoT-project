@@ -1,0 +1,78 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#F0F4F8">
+
+    <!-- Title TextView -->
+
+    <!-- Moisture Level Display -->
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="244dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="104dp"
+        android:gravity="center"
+        android:text="Moisture Detector and Pump Control"
+        android:textColor="#000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/soilValue"
+        android:layout_width="341dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/bg_label"
+        android:elevation="4dp"
+        android:padding="16dp"
+        android:text="Moisture Level: --"
+        android:textColor="#2E7D32"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <!-- Control Buttons -->
+    <RadioGroup
+        android:id="@+id/controlGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="199dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/autoBtn"
+            android:layout_width="112dp"
+            android:layout_height="51dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Auto"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/onBtn"
+            android:layout_width="107dp"
+            android:layout_height="53dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Pump ON"
+            android:textColor="#FFFFFF" />
+
+        <RadioButton
+            android:id="@+id/offBtn"
+            android:layout_width="105dp"
+            android:layout_height="53dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/bg_button_selector"
+            android:button="@null"
+            android:gravity="center"
+            android:text="Pump OFF"
+            android:textColor="#FFFFFF" />
+    </RadioGroup>
+</LinearLayout>
