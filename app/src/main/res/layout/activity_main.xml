@@ -11,20 +11,9 @@
     <!-- Moisture Level Display -->
 
     <TextView
-        android:id="@+id/titleText"
-        android:layout_width="244dp"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="104dp"
-        android:gravity="center"
-        android:text="Moisture Detector and Pump Control"
-        android:textColor="#000"
-        android:textSize="24sp"
-        android:textStyle="bold" />
-
-    <TextView
         android:id="@+id/soilValue"
         android:layout_width="341dp"
-        android:layout_height="wrap_content"
+        android:layout_height="79dp"
         android:layout_marginBottom="32dp"
         android:background="@drawable/bg_label"
         android:elevation="4dp"
@@ -37,8 +26,8 @@
     <!-- Control Buttons -->
     <RadioGroup
         android:id="@+id/controlGroup"
-        android:layout_width="wrap_content"
-        android:layout_height="199dp"
+        android:layout_width="356dp"
+        android:layout_height="272dp"
         android:gravity="center"
         android:orientation="horizontal">
 
